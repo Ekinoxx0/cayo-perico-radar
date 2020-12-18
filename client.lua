@@ -2,6 +2,7 @@ local interiorId = 0
 
 Citizen.CreateThread(function()
 	local interiorsOnIsland = {
+		[GetInteriorAtCoords(4440.0, -4465.0, 7.0)] = true,
 		[GetInteriorAtCoords(5040.0, -5709.0, 17.0)] = true,
 		[GetInteriorAtCoords(5043.0, -5741.0, 17.0)] = true,
 		[GetInteriorAtCoords(4998.0, -5777.0, 17.0)] = true,
